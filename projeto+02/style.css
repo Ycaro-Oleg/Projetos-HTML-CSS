@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  background-color: black;
+}
+header{
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav{
+  width: 60%;
+}
+ul{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+li{
+  list-style: none;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 19px;
+  transition: .5s;
+  font-family: 'Kanit', sans-serif;
+}
+
+li:hover{
+  color: #1172f0;
+}
+
+#logo{
+  width: 400px;
+  height: 90px;
+}
+
+#banner{
+  background-image: url(./imgs/jumper-banner.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+#trailer-container{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.content{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.trailer{
+  width: 50%;
+  margin:auto;
+}
+#sinopse{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+
+.description{
+  color: #FFF;
+  font-size: 19px;
+  font-family: 'Kanit', sans-serif;
+  width: 100%;
+}
+
+.button{
+  width: 200px;
+  height: 60px;
+  background-color:#1172f0 ;
+  color: #FFF;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .8s;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: none;
+  outline:none;
+  margin-top: 25px;
+}
+.button:hover{
+  background-color: #FFF;
+  color: #000;
+}
+
+.actor-cards-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+
+.cards-content{
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  row-gap: 20px;
+  column-gap: 40px;
+}
+.card{
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: 50% 50%;
+  border-radius: 5px;
+  cursor:pointer;
+  transition: 1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 20px 10px;
+  color: #FFF;
+  font-size: 20px;
+  font-family: 'Kanit', sans-serif;
+}
+.banner-1{
+  background-image: url(./imgs/jumper-banner.jpg);
+}
+
+.banner-2{
+  background-image: url(./imgs/Samuel\ l\ jackson.jpg);
+}
+
+.banner-3{
+  background-image: url(./imgs/Rachel\ biloson.jpg);
+}
+.card:hover{
+  transform:scale(1.02);
+}
+footer{
+  height: 300px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+span{
+  color: #FFF;
+  font-family: 'Kanit', sans-serif;
+}
+
+.footer-navigation{
+  display: none;
+}
+.footer-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
